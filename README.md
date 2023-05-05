@@ -1,7 +1,7 @@
 # Sentiment Analyzer
 # How to run 
     npm --save install
-    node index.js
+    npm run serve
 # Open Web Browser
     http://localhost:5000
 # Enter Text
