@@ -9,6 +9,7 @@ const port = 5000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Default route
 app.get('/', function(req, res) {
   const filePath = path.resolve(__dirname, 'index.html');
   res.sendFile(filePath);
